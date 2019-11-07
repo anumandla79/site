@@ -39,21 +39,23 @@ span{
 }
 
 h1{
-  margin:0;
-
+  margin: 0;
+  margin-top:20px;
 }
 h2{
   margin:0;
 }
 .top-cloud{
+  display: block;
   position:absolute;
-  right:300px;
+  right:30%;
   top:50px;
 }
 .bottom-cloud{
+  display: block;
   position: absolute;
-  left:300px;
-  top:150px;
+  left:30%;
+  top:250px;
 }
 .name{
   position:relative;
@@ -76,7 +78,7 @@ h2{
 }
 
 .hobbies{
-  
+
   background-color: #6f9a8d;
 
 }
@@ -98,14 +100,20 @@ h2{
 .computer-img{
 display: inline-block;
 position: absolute;
-right:0px;
+height: 250px;
+width: 250px;
+right:300px;
 border-radius: 50%;
 }
 .soccer-img{
   height: 200px;
   width:200px;
 }
-.chilli{
+.chilli-img{
   height:100px;
   width:100px;
+}
+ul{
+  text-align: left;
+  font-size: 20px;
 }
