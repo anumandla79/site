@@ -3,8 +3,10 @@ body{
   margin:0px;
   background-color: #b2fcff;
 
+
 }
 .introduction{
+  padding-top: 100px;
   background-color: #4dd599;
   height: 500px;
 }
@@ -26,10 +28,11 @@ span{
   text-decoration: underline;
 }
 .education{
-
+ padding-top: 30px;
   background-color: #00918e;
 }
 .skills{
+  padding-top: 30px;
   background-color: #dfcdc3;
 }
 .welcome{
@@ -41,20 +44,23 @@ span{
 h1{
   margin: 0;
   margin-top:20px;
+  font-size: 50px;
 }
 h2{
   margin:0;
+  padding-bottom: 20px;
 }
 .top-cloud{
   display: block;
   position:absolute;
-  right:30%;
+  padding-top:50px;
+  right:20%;
   top:50px;
 }
 .bottom-cloud{
   display: block;
   position: absolute;
-  left:30%;
+  left:20%;
   top:250px;
 }
 .name{
@@ -65,25 +71,29 @@ h2{
 .tag{
   position: relative;
   top:30px;
-  text-align: center;
+  font-size:20px;
+
 }
 .mountain{
   display:block;
   margin:0 auto;
 }
 .works{
+  padding-top: 30px;
   background-color: #1f6650;
   height:500px;
 
 }
 
 .hobbies{
-
+  padding-top: 30px;
   background-color: #6f9a8d;
 
 }
 
 .contact-me{
+  padding-top: 30px;
+
   text-align: center;
   background-color: #537ec5;
 }
@@ -115,5 +125,55 @@ border-radius: 50%;
 }
 ul{
   text-align: left;
+  line-height: 2;
   font-size: 20px;
+}
+p{
+  font-size:20px;
+}
+a{
+
+  font-size: 20px;
+}
+.btn {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:9px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:13px 38px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #283966;
+  margin-bottom: 20px;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#076e9e;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+.bottom-container{
+  padding-top:50px;
+}
+.footer-link{
+  color:#66BFBF;
+  margin:0px 30px;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color:#EAF6F6;
+}
+.copyright{
+  font-size:100%;
+  color:#66BFBF;
+}
+.copyright:hover{
+  padding:50px 30px;
+  color:#66BFBF;
 }
