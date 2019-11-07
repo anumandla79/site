@@ -1,0 +1,111 @@
+body{
+  text-align:center;
+  margin:0px;
+  background-color: #b2fcff;
+
+}
+.introduction{
+  background-color: #4dd599;
+  height: 500px;
+}
+img{
+margin:0;
+}
+hr{
+  border-width: 5px;
+  border-color: grey;
+  width: 10%;
+  border-style:none;
+  border-top-style:dotted;
+  margin: 0 auto;
+}
+div{
+  margin: 0;
+}
+span{
+  text-decoration: underline;
+}
+.education{
+
+  background-color: #00918e;
+}
+.skills{
+  background-color: #dfcdc3;
+}
+.welcome{
+  background-col or: #b2fcff;
+  padding-top: 100px;
+  align-items: center;
+}
+
+h1{
+  margin:0;
+
+}
+h2{
+  margin:0;
+}
+.top-cloud{
+  position:absolute;
+  right:300px;
+  top:50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left:300px;
+  top:150px;
+}
+.name{
+  position:relative;
+  top:30px;
+  text-align: center;
+}
+.tag{
+  position: relative;
+  top:30px;
+  text-align: center;
+}
+.mountain{
+  display:block;
+  margin:0 auto;
+}
+.works{
+  background-color: #1f6650;
+  height:500px;
+
+}
+
+.hobbies{
+  
+  background-color: #6f9a8d;
+
+}
+
+.contact-me{
+  text-align: center;
+  background-color: #537ec5;
+}
+.profile-img{
+  display:block;
+  margin:0 auto;
+  height: 200px;
+  width:200px;
+}
+.touch-img{
+  height:200px;
+  width:200px;
+}
+.computer-img{
+display: inline-block;
+position: absolute;
+right:0px;
+border-radius: 50%;
+}
+.soccer-img{
+  height: 200px;
+  width:200px;
+}
+.chilli{
+  height:100px;
+  width:100px;
+}
