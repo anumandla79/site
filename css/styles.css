@@ -1,13 +1,13 @@
 body{
   text-align:center;
   margin:0px;
-  background-color: #b2fcff;
+  background-color: lavender;
 
 
 }
 .introduction{
   padding-top: 100px;
-  background-color: #4dd599;
+  background-color: lavender;
   height: 500px;
 }
 img{
@@ -15,7 +15,7 @@ margin:0;
 }
 hr{
   border-width: 5px;
-  border-color: grey;
+  border-color: #00918e;
   width: 10%;
   border-style:none;
   border-top-style:dotted;
@@ -30,14 +30,14 @@ span{
 }
 .education{
  padding-top: 30px;
-  background-color: #00918e;
+  background-color: lavender;
 }
 .skills{
   padding-top: 30px;
-  background-color: #dfcdc3;
+  background-color: lavender;
 }
 .welcome{
-  background-col or: #b2fcff;
+  background-col or: skyblue;
   padding-top: 100px;
   align-items: center;
 }
@@ -77,19 +77,20 @@ h2{
 }
 .mountain{
   display:block;
-  margin:0 auto;
+  margin:50px auto 0 auto;
+
 }
 .works{
   padding-top: 30px auto ;
   padding-bottom: 20px;
-  background-color: #1f6650;
+  background-color: lavender;
   height:500px;
 
 }
 
 .hobbies{
   padding-top: 30px;
-  background-color: #6f9a8d;
+  background-color:lavender;
 
 }
 
@@ -103,6 +104,7 @@ h2{
   display:block;
   margin:0 auto;
   height: 200px;
+  border-radius: 50%;
   width:200px;
 }
 .touch-img{
