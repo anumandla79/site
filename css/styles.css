@@ -1,180 +1,148 @@
 body{
   text-align:center;
   margin:0px;
-  background-color: lavender;
+}
 
-
-}
-.introduction{
-  padding-top: 100px;
-  background-color: lavender;
-  height: 500px;
-}
-img{
-margin:0;
-}
-hr{
-  border-width: 5px;
-  border-color: #00918e;
-  width: 10%;
-  border-style:none;
-  border-top-style:dotted;
-  margin: 0 auto;
-}
-div{
-  margin: 0;
-  width:100%;
-}
-span{
-  text-decoration: underline;
-}
-.education{
- padding-top: 30px;
-  background-color: lavender;
-}
-.skills{
-  padding-top: 30px;
-  background-color: lavender;
-}
 .welcome{
-  background-col or: skyblue;
-  padding-top: 100px;
-  align-items: center;
+  padding-top: 50px;
+  background-color: #e4f2f0;
 }
 
 h1{
   margin: 0;
   margin-top:20px;
   font-size: 50px;
+    color:#43ab92;
 }
 h2{
   margin:0;
   padding-bottom: 20px;
+    color:#43ab92;
 }
+
+
 .top-cloud{
   display: block;
-  position:absolute;
-  padding-top:50px;
-  right:20%;
-  top:50px;
+  position:relative;
+  left:75%;
+}
+.name{
+  display: block;
+  color: #4baea0;
+  font-size: 80px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+.tag{
+  display:block;
+  margin-top:0px;
+  padding-bottom: 60px;
+  color: #4baea0;
+  font-size:30px;
 }
 .bottom-cloud{
   display: block;
-  position: absolute;
-  left:20%;
-  top:250px;
-}
-.name{
-  position:relative;
-  top:30px;
-  text-align: center;
-}
-.tag{
   position: relative;
-  top:30px;
-  font-size:20px;
-
+  left:25%;
+  margin-bottom: 30px;
 }
-.mountain{
+.me{
   display:block;
-  margin:50px auto 0 auto;
-
-}
-.works{
-  padding-top: 30px auto ;
-  padding-bottom: 20px;
-  background-color: lavender;
-  height:500px;
-
-}
-
-.hobbies{
-  padding-top: 30px;
-  background-color:lavender;
-
-}
-
-.contact-me{
-  padding-top: 30px;
-
-  text-align: center;
-  background-color: #537ec5;
-}
-.profile-img{
-  display:block;
-  margin:0 auto;
+  margin:100px auto 50px auto;
   height: 200px;
   border-radius: 50%;
   width:200px;
 }
-.touch-img{
-  height:200px;
-  width:200px;
-}
-.computer-img{
-display: inline-block;
-position: absolute;
-height: 250px;
-width: 250px;
-right:300px;
-border-radius: 50%;
-}
-.soccer-img{
-  height: 200px;
-  width:200px;
-}
-.chilli-img{
-  height:100px;
-  width:100px;
-}
-ul{
-  text-align: left;
+.intro{
+  font-family:'Josefin Slab',serif;
+  font-size:20px;
+  width:30%;
   line-height: 2;
-  font-size: 20px;
+  margin:10px auto;
+}
+hr{
+  border-width: 7px;
+  border-color: #4baea0;
+  width: 4%;
+  border-style:none;
+  border-top-style:dotted;
+  margin: 100px auto 0 auto;
+}
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  padding-top:100px;
+
+  text-align: left;
 }
 p{
+  font-family:'Josefin Slab',serif;
   font-size:20px;
+  line-height: 2;
+  margin:10px auto;
 }
-a{
+.css-img{
+  width:25%;
+  float:left;
+  margin-right: 100px;
 
-  font-size: 20px;
+}
+.code-img{
+  width:25%;
+  float:right;
+  margin-left: 100px;
+
+}
+
+/*---------------------------------*/
+.contact-me{
+  padding-top: 30px;
+  color: black;
+
 }
 .btn {
-	box-shadow: 0px 0px 0px 2px #9fb4f2;
-	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
-	background-color:#7892c2;
+	box-shadow: 0px 0px 0px 2px gold;
+	background:linear-gradient(to bottom, #43ab92 5%, #43ab92 100%);
+	background-color:#43ab92;
 	border-radius:9px;
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:15px;
+	font-size:20px;
 	padding:13px 38px;
+  font-family: "Josefin Slab",serif;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #283966;
-  margin-bottom: 20px;
+  margin: 40px;
+
 }
 .btn:hover {
-	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
-	background-color:#076e9e;
+	background:linear-gradient(to bottom, gold 5%,green 100%);
+	background-color:green;
 }
 .btn:active {
 	position:relative;
 	top:1px;
 }
 .bottom-container{
-  padding-top:50px;
+  padding-top:100px;
+  height: 200px;
+  background-color:#e4f2f0;
 }
 .footer-link{
   color:#66BFBF;
-  margin:0px 30px;
+  margin:0px 100px;
+  font-family: "Josefin Slab",serif;
+  font-size: 30px ;
   text-decoration: none;
+
 }
 .footer-link:hover{
-  color:#EAF6F6;
+  color:gold;
 }
 .copyright{
-  font-size:100%;
+  font-size:20px;;
   color:#66BFBF;
 }
 .copyright:hover{
