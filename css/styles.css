@@ -104,7 +104,7 @@ p{
 }
 
 /*---------------------------------*/
-.contact-me{
+.contact-me:hover{
      font-family:'Josefin Slab',serif;
   font-size:40px;
     font-weight: bolder;
@@ -191,9 +191,11 @@ p{
 @media screen and (max-width:1000px){
     .skill-row{
       width:80%;
+        justify-content: center;
+      text-align: center;
     }
     .skill-img,.skill{
-        clear: both;
         float: none;
+        display: block;
     }
 }
