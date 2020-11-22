@@ -1,30 +1,39 @@
+*{
+    box-sizing: border-box;
+}
 body{
-  text-align:center;
-  margin:0px;
+
+  margin:0px auto;
+    text-align: center;
+    
 }
 
 .welcome{
-  padding-top: 50px;
+/*  padding-top: 50px;*/
   background-color: #e4f2f0;
+
 }
 
-h1{
+.heading{
   margin: 0;
   margin-top:20px;
   font-size: 50px;
-    color:#43ab92;
+  color:#43ab92;
 }
-h2{
+.h2{
   margin:0;
   padding-bottom: 20px;
-    color:#43ab92;
+  color:#43ab92;
 }
 
 
 .top-cloud{
   display: block;
   position:relative;
-  left:75%;
+  left:65%;
+    padding-top: 0;
+    margin-top: 0;
+/*    margin-bottom: 70px;*/
 }
 .name{
   display: block;
@@ -44,7 +53,7 @@ h2{
   display: block;
   position: relative;
   left:25%;
-  margin-bottom: 30px;
+/*  margin-bottom: 30px;*/
 }
 .me{
   display:block;
@@ -53,27 +62,33 @@ h2{
   border-radius: 50%;
   width:200px;
 }
+.introduction:hover{
+     font-family:'Josefin Slab',serif;
+  font-size:40px;
+    font-weight: bolder;
+}
 .intro{
   font-family:'Josefin Slab',serif;
-  font-size:20px;
-  width:30%;
-  line-height: 2;
+  font-size:30px;
+  width:50%;
+  line-height:1;
   margin:10px auto;
 }
-hr{
+
+.hr{
   border-width: 7px;
   border-color: #4baea0;
-  width: 4%;
+  width: 6%;
   border-style:none;
   border-top-style:dotted;
   margin: 100px auto 0 auto;
 }
 .skill-row{
-  width:50%;
-  margin: 100px auto 100px auto;
-  padding-top:100px;
+  width:60%;
+  text-align: center;
+  margin: 50px auto;
+/*  padding-top:100px;*/
 
-  text-align: left;
 }
 p{
   font-family:'Josefin Slab',serif;
@@ -81,23 +96,18 @@ p{
   line-height: 2;
   margin:10px auto;
 }
-.css-img{
-  width:25%;
-  float:left;
-  margin-right: 100px;
 
-}
 .code-img{
-  width:25%;
-  float:right;
-  margin-left: 100px;
-
+  width:200px;
+    height: 200px;
+ 
 }
 
 /*---------------------------------*/
 .contact-me{
-  padding-top: 30px;
-  color: black;
+     font-family:'Josefin Slab',serif;
+  font-size:40px;
+    font-weight: bolder;
 
 }
 .btn {
@@ -127,7 +137,6 @@ p{
 }
 .bottom-container{
   padding-top:100px;
-  height: 200px;
   background-color:#e4f2f0;
 }
 .footer-link{
@@ -140,6 +149,9 @@ p{
 }
 .footer-link:hover{
   color:gold;
+      text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
 }
 .copyright{
   font-size:20px;;
@@ -148,4 +160,40 @@ p{
 .copyright:hover{
   padding:50px 30px;
   color:#66BFBF;
+}
+.mountain{
+    text-align: center;
+    flex: auto;
+    
+}
+.what-i-can-do:hover {
+     font-family:'Josefin Slab',serif;
+  font-size:40px;
+    font-weight: bolder;
+}
+
+.clear {
+    clear: both;
+}
+
+.skill-img {
+    width: 300px;
+
+    float: left;
+}
+
+.skill {
+    width: 300px;
+    display: inline-block;
+    float: right;
+}
+
+@media screen and (max-width:1000px){
+    .skill-row{
+      width:80%;
+    }
+    .skill-img,.skill{
+        clear: both;
+        float: none;
+    }
 }
