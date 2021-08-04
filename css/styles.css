@@ -104,12 +104,12 @@ p{
 }
 
 /*---------------------------------*/
-.contact-me:hover{
+/* .contact-me:hover{
      font-family:'Josefin Slab',serif;
   font-size:40px;
     font-weight: bolder;
 
-}
+} */
 .btn {
 	box-shadow: 0px 0px 0px 2px gold;
 	background:linear-gradient(to bottom, #43ab92 5%, #43ab92 100%);
@@ -147,31 +147,31 @@ p{
   text-decoration: none;
 
 }
-.footer-link:hover{
+/* .footer-link:hover{
   color:gold;
       text-decoration: none;
     font-size: 40px;
     font-weight: bold;
-}
+} */
 .copyright{
   font-size:20px;;
   color:#66BFBF;
 }
-.copyright:hover{
+/* .copyright:hover{
   padding:50px 30px;
   color:#66BFBF;
-}
+} */
 .mountain{
     text-align: center;
     flex: auto;
     
 }
-.what-i-can-do:hover {
+/* .what-i-can-do:hover {
      font-family:'Josefin Slab',serif;
   font-size:40px;
     font-weight: bolder;
 }
-
+ */
 .clear {
     clear: both;
 }
